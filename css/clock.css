@@ -1,0 +1,11 @@
+#clock {
+  margin: 0;
+  font-size: 150px;
+  background: linear-gradient(
+    to right bottom,
+    rgb(255, 79, 79),
+    rgb(104, 104, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

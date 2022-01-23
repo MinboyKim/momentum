@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+@import "clock.css";
+@import "form.css";
+@import "quote.css";
+@import "weather.css";
+@import "todo.css";
+
+html {
+  font-family: "Nunito", sans-serif;
+  color: whitesmoke;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .hidden {
   display: none;
 }
